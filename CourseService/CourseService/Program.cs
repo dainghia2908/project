@@ -45,6 +45,16 @@ builder.Services.AddSwaggerGen();
 // Đăng ký SyllabusService
 builder.Services.AddScoped<ISyllabusService, SyllabusService>();
 
+// 1. Lấy URL từ appsettings
+var accountServiceUrl = builder.Configuration["ServiceUrls:AccountService"];
+
+// 2. Đăng ký HttpClient
+builder.Services.AddHttpClient<IAccountServiceClient, AccountServiceClient>(client =>
+{
+    client.BaseAddress = new Uri(accountServiceUrl);
+});
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

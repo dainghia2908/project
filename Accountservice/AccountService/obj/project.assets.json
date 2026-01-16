@@ -3858,11 +3858,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\project-base-service\\Accountservice\\AccountService\\AccountService.csproj",
+      "projectUniqueName": "D:\\project-base-service\\AccountService\\AccountService\\AccountService.csproj",
       "projectName": "AccountService",
-      "projectPath": "D:\\project-base-service\\Accountservice\\AccountService\\AccountService.csproj",
+      "projectPath": "D:\\project-base-service\\AccountService\\AccountService\\AccountService.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\project-base-service\\Accountservice\\AccountService\\obj\\",
+      "outputPath": "D:\\project-base-service\\AccountService\\AccountService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
